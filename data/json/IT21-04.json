@@ -1,0 +1,18 @@
+{
+  "fields": {
+    "Name": "Homelander",
+    "Date_of_birth": "4.7.1981",
+    "Sex": "M",
+    "Blood_type": "-",
+    "Height": "1,80",
+    "Weight": 75,
+    "Signature": "Homelander",
+    "Date": "3.10.2022",
+    "Background": "America's first and greatest superhero, and an unknown egg donor. Raised in a lab, he was surrounded by doctors like Jonah Vogelbaum, who named him John. For not having a real family, Vogelbaum remarked that John turned violent, aggressive, and downright hateful (\"The Self-Preservation Society\"). Throughout his childhood, \"John\" was put through painful physical experiments and surgeries to test the true limits of his abilities. Some of these tests included having his hand forced into a furnace while he cried, being boiled alive, and being forced to fight strength-enhanced Vought guards(\"One Plus One Equals Two\"). He was also put under strict mental brainwashing and was forced to spend hours sitting in front of a projector that displayed images that were chosen to mold his personality, such as the American flag, Jesus Christ, and baseball.",
+    "Strengths": "Superhuman strength, speed, stamina, durability, smell, and hearingPoison and Toxin ImmunityRegenerative Healing FactorInvulnerabilityHeat visionX-Ray visionFlight",
+    "Weaknesses": "Mentally unstableCarelessnessInsecureCannot see through zincHigh frequencies",
+    "Rank": "Junior Data Analyst",
+    "Security_level": "C",
+    "Department": "Medical Data Department"
+  }
+}

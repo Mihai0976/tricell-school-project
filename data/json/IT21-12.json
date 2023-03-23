@@ -1,0 +1,16 @@
+{
+  "fields": {
+    "Name": "Yoshikage Kira",
+    "Date_of_birth": "30.01.1966",
+    "Sex": "M",
+    "Blood_type": "A",
+    "Height": 1.8,
+    "Weight": 64,
+    "Date": "03.10.2022",
+    "Strengths": "Killer Queen, Sheer Heart Attack, Bites the Dust, Stray Cat (kind of?), Hayato~...",
+    "Weaknesses": "Sheer Heart Attack has no weaknesses.",
+    "Rank": "Junior Data Analyst",
+    "Security_level": "C",
+    "Department": "Medical Data Department"
+  }
+}

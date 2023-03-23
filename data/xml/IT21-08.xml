@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fields xmlns:xfdf="http://ns.adobe.com/xfdf-transition/"
+><Date_of_birth xfdf:original="Date of birth"
+>26.07.2002</Date_of_birth
+><Name
+>Dr.Light</Name
+><Sex
+>M</Sex
+><Height
+>1,81</Height
+><Weight
+>84</Weight
+><Rank
+>Junior Data Analyst</Rank
+><Security_level xfdf:original="Security level"
+>C</Security_level
+><Signature
+>L.Mickelsson</Signature
+><Date
+>2022-03-10</Date
+><Employee_code xfdf:original="Employee code"
+>Dr.Light</Employee_code
+><Department
+>Medical Data Department</Department
+><Background
+>I am born in Finland but have lived in Sweden for hole my life. I live in Mariehamn right now.</Background
+><Strengths
+>disciplined, hard worker and good listener.</Strengths
+><Weaknesses
+>can be a bit silent sometimes but not a weakness I would say.</Weaknesses
+></fields>

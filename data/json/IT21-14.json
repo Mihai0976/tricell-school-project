@@ -1,0 +1,19 @@
+{
+  "fields": {
+    "Date_of_birth": "01.09.1984",
+    "Name": "Megatron",
+    "Sex": "M",
+    "Height": 9.14,
+    "Weight": "36 000",
+    "Blood_type": "A",
+    "Rank": "Junior Data Analyst",
+    "Security_level": "C",
+    "Signature": "Megatron",
+    "Date": "03.10.2022",
+    "Employee_code": 735,
+    "Department": "Medical Data Department",
+    "Background": "Leader of the Decepticons",
+    "Strengths": "Evil",
+    "Weaknesses": "Optimus Prime"
+  }
+}

@@ -1,0 +1,209 @@
+<style type="text/css">
+    #loggedinMenuLayer
+    {
+        position: fixed;
+        top: 0%;
+        left: 880px;
+        z-index: 11;
+        background-color: #dae3f3;
+        width: 150px;
+            height: 100%;
+        padding: 10px;
+        border: #000000 1px dashed;
+        display: block;
+    }
+    #userinfo
+    {
+        border: #000000 1px solid;
+        background-color: #e2f0d9;
+        padding: 5px;
+        font-family : Arial, Verdana, Geneva, Helvetica, sans-serif;
+        font-size: 10px;
+        color: #000000;
+    }
+    #chatbutton
+    {
+        border: #000000 1px solid;
+        background-color: #336699;
+        padding: 5px;
+        margin-top: 10px;
+        font-family : Arial, Verdana, Geneva, Helvetica, sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+        text-align: center;
+        color: #ffffff;
+    }
+    #topsecret
+    {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 150px;
+        font-family : Arial, Verdana, Geneva, Helvetica, sans-serif;
+        font-size: 13px;
+        text-align: center;
+        color: #cc0000;
+    }
+    .loggedinbutton
+    {
+        padding: 10px;
+        font-family : Arial, Verdana, Geneva, Helvetica, sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+        text-align: left;
+        color: #336699;
+    }
+    #calcLayer 
+    {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 12;
+        background-color: transparent;
+        width: 250px;
+        padding: 10px;
+        display: none;
+    }
+    #calculator
+    {
+        border-collapse: collapse;
+        border: 1px solid black;
+        border-spacing: 0px; 
+        background-color: #cccccc;
+    }
+    .calcbutton
+    {
+        border-collapse: collapse;
+        border: 1px solid black;
+        border-spacing: 0px; 
+        padding: 5px;
+        background-color: #999999;
+        font-family : Arial, Verdana, Geneva, Helvetica, sans-serif;
+        font-size: 12px;
+        color: #000000;
+        width: 30px;
+        height: 30px;
+    }
+    .calcdisplay
+    {
+        border-collapse: collapse;
+        border: 1px solid black;
+        border-spacing: 0px; 
+        padding: 5px;
+        background-color: #eeeeee;
+        font-family : Arial, Verdana, Geneva, Helvetica, sans-serif;
+        font-size: 12px;
+        color: #000000;
+        width: 140px;
+        height: 30px;
+    }
+    td.calccell
+    {
+        text-align: center;
+        vertical-align: middle;
+        padding: 3px;
+    }
+    </style>
+    
+    <script language="JavaScript">
+    function showCalcLayer()
+    {
+        if(document.getElementById('calcLayer').style.display=='block')
+        {
+            document.getElementById('calcLayer').style.display='none';
+        }
+        else
+        {
+            document.getElementById('calcLayer').style.display='block';
+        }
+    }
+    </script>
+    
+    <script language="JavaScript">
+    function resetDisplay()
+    {
+        document.calc.display.value = "";
+    }
+    function updateDisplay(invalue)
+    {
+        document.calc.display.value = document.calc.display.value + invalue;
+    }
+    function calculate()
+    {
+        document.calc.display.value = eval(document.calc.display.value);
+    }
+    </script>
+    
+    <div id="loggedinMenuLayer">
+    <div id="userinfo">
+        <b>User info:</b><br />
+        Employee Code: <br />
+        Name: <br />
+        Login times: <br />
+        Last login: <br />
+    </div>
+    <div id="chatbutton">
+        Chat ()
+    </div>
+    <div id="topsecret">
+        <b>TOP SECRET</b><br />MATERIAL
+    </div>
+    <table border="0" cellspacing="0" cellpadding="0"><tr><td height="1" width="150" bgcolor="#003366"></td></tr></table>
+    <div class="loggedinbutton">
+        <a href="javascript:void(0)" onClick="javascript:showCalcLayer();" style="color:#336699;text-decoration:none;">Tricell Calculator</a>
+    </div>
+    <table border="0" cellspacing="0" cellpadding="0"><tr><td height="1" width="150" bgcolor="#003366"></td></tr></table>
+    <div class="loggedinbutton">
+        User Database
+    </div>
+    <table border="0" cellspacing="0" cellpadding="0"><tr><td height="1" width="150" bgcolor="#003366"></td></tr></table>
+    <div class="loggedinbutton">
+        Research database
+    </div>
+    <table border="0" cellspacing="0" cellpadding="0"><tr><td height="1" width="150" bgcolor="#003366"></td></tr></table>
+    <div class="loggedinbutton">
+        <a href="http://localhost:3000/api/logout" style="color:#336699;text-decoration:none;">Log out</a>
+    </div>
+    <table border="0" cellspacing="0" cellpadding="0"><tr><td height="1" width="150" bgcolor="#003366"></td></tr></table>
+    </div>
+    
+    <div id="calcLayer">
+    <h3>Tricell Calculator</h3>
+    <form name="calc"> 
+    <table id="calculator">
+     <tr>
+     <td class="calccell" colspan="4"><input class="calcdisplay" type="text" name="display" /></td>
+     </tr>
+     <tr>
+     <td class="calccell"><input class="calcbutton" type="button" value="C" onClick="resetDisplay()" /></td>
+     <td></td>
+     <td></td> 
+     <td class="calccell"><input class="calcbutton" type="button" value="/" onClick="calc.display.value+='/'"></td>
+     </tr>
+     <tr>
+     <td class="calccell"><input class="calcbutton" type="button" value="7" onClick="updateDisplay('7')" /></td> 
+     <td class="calccell"><input class="calcbutton" type="button" value="8" onClick="updateDisplay('8')" /></td>
+     <td class="calccell"><input class="calcbutton" type="button" value="9" onClick="updateDisplay('9')" /></td> 
+     <td class="calccell"><input class="calcbutton" type="button" value="*" onClick="updateDisplay('*')" /></td>
+     </tr>
+     <tr>
+     <td class="calccell"><input class="calcbutton" type="button" value="4" onClick="updateDisplay('4')" /></td> 
+     <td class="calccell"><input class="calcbutton" type="button" value="5" onClick="updateDisplay('5')" /></td>
+     <td class="calccell"><input class="calcbutton" type="button" value="6" onClick="updateDisplay('6')" /></td> 
+     <td class="calccell"><input class="calcbutton" type="button" value="-" onClick="updateDisplay('-')" /></td>
+     </tr>
+     <tr>
+     <td class="calccell"><input class="calcbutton" type="button" value="1" onClick="updateDisplay('1')" /></td> 
+     <td class="calccell"><input class="calcbutton" type="button" value="2" onClick="updateDisplay('2')" /></td>
+     <td class="calccell"><input class="calcbutton" type="button" value="3" onClick="updateDisplay('3')" /></td> 
+     <td class="calccell"><input class="calcbutton" type="button" value="+" onClick="updateDisplay('+')" /></td>
+     </tr>
+     <tr>
+     <td class="calccell"><input class="calcbutton" type="button" value="0" onClick="updateDisplay('0')" /></td>
+     <td></td>
+     <td></td> 
+     <td class="calccell"><input class="calcbutton" type="button" value="=" onClick="calculate()" /></td>
+     </tr>
+    </table>
+    </form>
+    </div>

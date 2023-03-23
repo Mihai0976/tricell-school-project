@@ -1,0 +1,19 @@
+{
+  "fields": {
+    "Date_of_birth": "31.12.1926",
+    "Name": "Voldemort",
+    "Sex": "M",
+    "Height": 1.9,
+    "Weight": 81,
+    "Blood_type": 0,
+    "Rank": "Junior Data Analyst",
+    "Security_level": "C",
+    "Signature": "Lord Voldemort",
+    "Date": "03.10.2022",
+    "Employee_code": "IT-21-21",
+    "Department": "Medical Data Department",
+    "Background": "William Stryker was a Catholic Priest who, after discovering the existence of mutants, grew to hate and fear them, but he also saw the potential they possessed. His radical views about mutants eventually got him excommunicated from the church, so he decided to fall back on his military background.",
+    "Strengths": "Stryker has been converted into a cyborg, equipped with adamantium parts. His adamantium construction gives him a high level of superhuman durability, enabling him to survive being grievously wounded by H-Alpha, though he was unable to move.",
+    "Weaknesses": "Over the years, he found himself involved in a shady organization called Weapon X, which was dedicated to the recruitment and weaponization of mutants. Eventually, Stryker found himself leading a squad of a handful of deadly mutants, including Wolverine, Sabretooth, Omega Red, and Deadpool."
+  }
+}

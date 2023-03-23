@@ -1,0 +1,16 @@
+{
+  "fields": {
+    "Name": "DIO BRANDO",
+    "Date_of_birth": "1867-1868",
+    "Sex": "MALE",
+    "Blood_type": "VAMPIRIC",
+    "Height": 1.95,
+    "Weight": 105,
+    "Employee_code": "IT17-00-DIO",
+    "Signature": "Dio Brando",
+    "Date": "12.10.2022",
+    "Rank": "Junior Data Analyst",
+    "Security_level": "C",
+    "Department": "Medical Data Department"
+  }
+}

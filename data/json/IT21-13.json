@@ -1,0 +1,18 @@
+{
+  "fields": {
+    "Name": "Shredder",
+    "Date_of_birth": "15.4.1967",
+    "Sex": "-",
+    "Blood_type": "-",
+    "Height": "1,90",
+    "Weight": 95,
+    "Signature": "Shredder",
+    "Date": "3.10.2022",
+    "Background": "Little is known about the Shredder's history except that he was born on April 15, 1967. he actually raised Eric Sacks in Japan after Sacks' father died in Vietnam War and he is such a skilled and ruthless warrior.",
+    "Strengths": "Immense Strength, Immense Speed,Robotic Samurai Armour",
+    "Weaknesses": "Clumsy and slow",
+    "Rank": "Junior Data Analyst",
+    "Security_level": "C",
+    "Department": "Medical Data Department"
+  }
+}

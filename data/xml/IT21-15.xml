@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fields xmlns:xfdf="http://ns.adobe.com/xfdf-transition/"
+><Date_of_birth xfdf:original="Date of birth"
+>1.1.1900</Date_of_birth
+><Name
+>Kent Agent</Name
+><Sex
+>M</Sex
+><Height
+>2</Height
+><Weight
+>250</Weight
+><Blood_type xfdf:original="Blood type"
+>A</Blood_type
+><Rank
+>Junior Data Analyst</Rank
+><Security_level xfdf:original="Security level"
+>C</Security_level
+><Signature
+>Kent Agent</Signature
+><Date
+>3.10.2022</Date
+><Employee_code xfdf:original="Employee code"
+>0000001</Employee_code
+><Department
+>Medical Data Department</Department
+><Background
+>Top secret</Background
+><Strengths
+>Everything</Strengths
+><Weaknesses
+>None</Weaknesses
+></fields>

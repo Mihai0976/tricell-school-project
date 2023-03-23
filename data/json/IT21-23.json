@@ -1,0 +1,18 @@
+{
+  "fields": {
+    "Date_of_birth": "19.04.1971",
+    "Name": "Boba Fett",
+    "Sex": "M",
+    "Height": 1.83,
+    "Weight": 80,
+    "Blood_type": "O+",
+    "Rank": "Junior Data Analyst",
+    "Security_level": "C",
+    "Signature": "Boba Fett",
+    "Date": "12/10/2022",
+    "Department": "Medical Data Department",
+    "Background": "He's a renowned mandalorian bounty hunter whose career stretched from the from the fall of the Galatic Republic till the end of the era of the Galactic Empires rule. He pilots the Slave I, his starship that originally belonged to his father and genetic donor Jango Fett, hence Boba is actually a clone.",
+    "Strengths": "Trained in comabt and martial arts, a skilled marksman with a was assortment of equipment including his main rifle balster, a jetpack and miniature flamethrower on his wrist. He also has vasta array of other blasters and grenades and a crossbow. His armor also is very durable.",
+    "Weaknesses": "He doesn't have a great record when it comes to the Sarlacc's pit."
+  }
+}

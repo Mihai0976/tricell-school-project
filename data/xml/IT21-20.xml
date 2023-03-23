@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fields xmlns:xfdf="http://ns.adobe.com/xfdf-transition/"
+><Date_of_birth xfdf:original="Date of birth"
+>1985</Date_of_birth
+><Name
+>Red Skull</Name
+><Sex
+>M</Sex
+><Height
+>1,8</Height
+><Weight
+>130</Weight
+><Blood_type xfdf:original="Blood type"
+>AB+</Blood_type
+><Rank
+>Junior Data Analyst</Rank
+><Security_level xfdf:original="Security level"
+>C</Security_level
+><Department
+>Medical Data Department</Department
+><Background
+>Born in Finland.
+Studied pharmacy and medical.</Background
+><Strengths
+>Is creative and can come up with ideas and solutions to problems.</Strengths
+><Weaknesses
+>Cant focus on many things at once.</Weaknesses
+></fields>

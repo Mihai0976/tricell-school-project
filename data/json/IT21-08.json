@@ -1,0 +1,18 @@
+{
+  "fields": {
+    "Date_of_birth": "26.07.2002",
+    "Name": "Dr.Light",
+    "Sex": "M",
+    "Height": "1,81",
+    "Weight": 84,
+    "Rank": "Junior Data Analyst",
+    "Security_level": "C",
+    "Signature": "L.Mickelsson",
+    "Date": "2022-03-10",
+    "Employee_code": "Dr.Light",
+    "Department": "Medical Data Department",
+    "Background": "I am born in Finland but have lived in Sweden for hole my life. I live in Mariehamn right now.",
+    "Strengths": "disciplined, hard worker and good listener.",
+    "Weaknesses": "can be a bit silent sometimes but not a weakness I would say."
+  }
+}

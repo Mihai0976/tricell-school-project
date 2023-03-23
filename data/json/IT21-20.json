@@ -1,0 +1,16 @@
+{
+  "fields": {
+    "Date_of_birth": 1985,
+    "Name": "Red Skull",
+    "Sex": "M",
+    "Height": "1,8",
+    "Weight": 130,
+    "Blood_type": "AB+",
+    "Rank": "Junior Data Analyst",
+    "Security_level": "C",
+    "Department": "Medical Data Department",
+    "Background": "Born in Finland.Studied pharmacy and medical.",
+    "Strengths": "Is creative and can come up with ideas and solutions to problems.",
+    "Weaknesses": "Cant focus on many things at once."
+  }
+}

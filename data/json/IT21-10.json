@@ -1,0 +1,18 @@
+{
+  "fields": {
+    "Date_of_birth": "18.10.1998",
+    "Name": "Metroid Prime",
+    "Sex": "M",
+    "Height": 2.5,
+    "Weight": 200,
+    "Blood_type": 0,
+    "Rank": "Junior Data Analyst",
+    "Security_level": "C",
+    "Signature": "MP",
+    "Date": "03.10.2022",
+    "Department": "Medical Data Department",
+    "Background": "Prime was born after a Metroid absorbed large amounts of Phazon energy from the Phazon Core. The Metroid was corrupted and became the Guardian of the Leviathan Seed that struck Tallon IV 50 years before the events of the game. However, it is unknown how a Metroid got inside the Impact Crater before Samus released the Cipher.",
+    "Strengths": "The aberration known as Metroid Prime is the source of Phazon, making it immensely powerful. Only its head is truly vulnerable: other attacks are a nuisance. Offensively, Metroid Prime has a number of natural and mechanical weapons at its desposal. These include Ultrafrigid Breath, Multi-Missiles, Snare Beams, and Partical Wave Projectors. Its massive strength and barbed carapace make it lethal in melee combat. Recommend maximum firepower when engaging this enemy.",
+    "Weaknesses": "Follows the same pattern over and over again.A genetic flaw makes it susceptible to certain weapoms for brief periods."
+  }
+}

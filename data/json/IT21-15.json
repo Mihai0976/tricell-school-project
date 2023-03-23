@@ -1,0 +1,19 @@
+{
+  "fields": {
+    "Date_of_birth": "1.1.1900",
+    "Name": "Kent Agent",
+    "Sex": "M",
+    "Height": 2,
+    "Weight": 250,
+    "Blood_type": "A",
+    "Rank": "Junior Data Analyst",
+    "Security_level": "C",
+    "Signature": "Kent Agent",
+    "Date": "3.10.2022",
+    "Employee_code": 1,
+    "Department": "Medical Data Department",
+    "Background": "Top secret",
+    "Strengths": "Everything",
+    "Weaknesses": "None"
+  }
+}

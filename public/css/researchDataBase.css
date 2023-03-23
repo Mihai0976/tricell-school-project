@@ -1,0 +1,18 @@
+textarea{
+ height: 250px;
+ width: 716px;
+ background-color: #dae3f3;
+ border-color: #336699;
+ font-size: small;
+}
+.researchSheet{
+  height: 250px;
+  width: 716px;
+  border: #000000 1px dashed;
+  font-size: small;
+}
+
+.btn{
+ width: 30px;
+ border-color: #336699;
+}

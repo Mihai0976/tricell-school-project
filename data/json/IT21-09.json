@@ -1,0 +1,18 @@
+{
+  "fields": {
+    "Date_of_birth": "15.11.1987",
+    "Name": "Ganondorf",
+    "Sex": "M",
+    "Height": "2,3",
+    "Weight": 132,
+    "Blood_type": "B",
+    "Rank": "Junior Data Analyst",
+    "Security_level": "C",
+    "Signature": "Ganon",
+    "Date": "03/10/2022",
+    "Department": "Medical Data Department",
+    "Background": "Ganon is the main antagonist in The Legend of Zelda series and is presented as the embodiment of evil. He usually appears as the final boss at the end of each game. A recurring storyline in the series centres around the protagonist Link fighting to save Princess Zelda after she is captured by Ganon. Over the course of the series, Ganon has been depicted in various physical forms. As the human form known as Ganondorf, he is the king and the only male member of the Gerudo. He bears the physical traits of the Gerudo race, having red hair, dark skin and pointy ears. He also often transforms into a monstrous beast resembling a giant boar with glowing eyes. Ganon has been given various titles over the series, including \"King of Evil\", \"King of Thieves\", \"the Dark Lord\", \"King of Darkness\" and \"Prince of Darkness\".",
+    "Strengths": "big and strong",
+    "Weaknesses": "a little silly"
+  }
+}

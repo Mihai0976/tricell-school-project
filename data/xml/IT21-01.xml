@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fields xmlns:xfdf="http://ns.adobe.com/xfdf-transition/"
+><Name
+>DIO BRANDO</Name
+><Date_of_birth xfdf:original="Date of birth"
+>1867-1868</Date_of_birth
+><Sex
+>MALE</Sex
+><Blood_type xfdf:original="Blood type"
+>VAMPIRIC</Blood_type
+><Height
+>1.95</Height
+><Weight
+>105</Weight
+><Employee_code xfdf:original="Employee code"
+>IT17-00-DIO</Employee_code
+><Signature
+>Dio Brando</Signature
+><Date
+>12.10.2022</Date
+><Rank
+>Junior Data Analyst</Rank
+><Security_level xfdf:original="Security level"
+>C</Security_level
+><Department
+>Medical Data Department</Department
+></fields>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fields xmlns:xfdf="http://ns.adobe.com/xfdf-transition/"
+><Date_of_birth xfdf:original="Date of birth"
+>01.09.1984</Date_of_birth
+><Name
+>Megatron</Name
+><Sex
+>M</Sex
+><Height
+>9.14</Height
+><Weight
+>36 000</Weight
+><Blood_type xfdf:original="Blood type"
+>A</Blood_type
+><Rank
+>Junior Data Analyst</Rank
+><Security_level xfdf:original="Security level"
+>C</Security_level
+><Signature
+>Megatron</Signature
+><Date
+>03.10.2022</Date
+><Employee_code xfdf:original="Employee code"
+>735</Employee_code
+><Department
+>Medical Data Department</Department
+><Background
+>Leader of the Decepticons</Background
+><Strengths
+>Evil</Strengths
+><Weaknesses
+>Optimus Prime</Weaknesses
+></fields>
