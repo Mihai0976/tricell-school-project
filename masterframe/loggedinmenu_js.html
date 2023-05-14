@@ -1,0 +1,30 @@
+  
+    <script language="JavaScript">
+    function showCalcLayer()
+    {
+        if(document.getElementById('calcLayer').style.display=='block')
+        {
+            document.getElementById('calcLayer').style.display='none';
+        }
+        else
+        {
+            document.getElementById('calcLayer').style.display='block';
+        }
+    }
+    </script>
+    
+    <script language="JavaScript">
+    function resetDisplay()
+    {
+        document.calc.display.value = "";
+    }
+    function updateDisplay(invalue)
+    {
+        document.calc.display.value = document.calc.display.value + invalue;
+    }
+    function calculate()
+    {
+        document.calc.display.value = eval(document.calc.display.value);
+    }
+    </script>
+    

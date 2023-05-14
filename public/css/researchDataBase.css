@@ -12,7 +12,138 @@ textarea{
   font-size: small;
 }
 
-.btn{
- width: 30px;
- border-color: #336699;
+.btnedit{
+ width: 24px;
+ height: 24px;
+ /*background-image: url(edit.png);*/
+ background-color: green;
+ border-radius: 50%;
+
+}
+.btndelete{
+  width: 25px;
+  height: 25px;
+  /*background-image: url(delete.png);*/
+  background-color: green;
+  color: #000000;
+  text-align: center;
+  font-size: 10px;
+ }
+
+ .editcolumn{
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+ }
+
+ .created-virus-date{
+  display: flex;
+  
+ }
+
+ span{
+  align-items: end;
+  margin-left: 400px;
+ }
+
+ .virus-by{
+  align-items: end;
+  margin-left: 560px;
+ }
+
+ textarea{
+  font-size: 14px;
+  border-width: 2px;
+  height: 130px;
+ }
+
+ .edit-button
+ {
+  background-color: rgb(87, 111, 193);
+  height: 33px;
+  width: 65px;
+  margin-top: 5px;
+  border-style: none;
+  border-radius: 3px;
+  font-weight: bold;
+  font-size: 12px;
+ }
+
+.security-info
+{
+  border-style: solid;
+  border-color: #336699;
+  border-width: 2px;
+  height: 160px;
+  margin-top: 5px;
+  
+}
+
+.security-link{
+  display: flex;
+    justify-items: right;
+}
+
+.link-virus-sec{
+   padding-left: 120px;
+}
+
+.pdf-info
+{
+  border-style: none;
+  border-width: 2px;
+  height: 160px;
+  margin-top: 5px;
+  display: flex;
+}
+
+.file-upload {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.file-upload input[type='file'] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: 0;
+  font-size: 100px;
+}
+
+.file-upload label {
+  display: inline-block;
+  padding: 5px 10px;
+  background: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+.file-upload label:hover {
+  background: #444;
+}
+
+.attachments{
+  display: flex;
+  
+}
+ .attachments_h3{
+  padding-right: 130px;
+ }
+
+
+
+.delete-button {
+ color: #fff;
+  background-color: green;
+  height: 20px;
+  border-radius: 5px;
+  margin-left: 25px;
+}
+
+
+
+.upload-button{
+
+  margin-left: 4px;
+
 }

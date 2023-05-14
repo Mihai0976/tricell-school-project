@@ -9,14 +9,13 @@ const path = require('path');
 const readHTML = require('../readHTML.js');
 const fs = require('fs');
 
-    var htmlHead = readHTML('./head.html');
-    
-    var htmlHeader = readHTML('./header.html');
-    var htmlMenu = readHTML('./menu.html');    
-    var htmlInfoStart = readHTML('./infoStart.html');
-    var htmlInfoStop = readHTML('./infoStop.html');
-    var htmlFooter = readHTML('./footer.html');
-    var htmlBottom = readHTML('./bottom.html');
+var htmlHead = readHTML('./masterframe/head.html');
+var htmlHeader = readHTML('./masterframe/header.html');
+var htmlMenu = readHTML('./masterframe/menu.html');    
+var htmlInfoStart = readHTML('./masterframe/infoStart.html');
+var htmlInfoStop = readHTML('./masterframe/infoStop.html');
+var htmlFooter = readHTML('./masterframe/footer.html');
+var htmlBottom = readHTML('./masterframe/bottom.html');
 
 // --------------------- Router -----------------------------------------------
 router.get('/', function(request, response)
@@ -24,9 +23,14 @@ router.get('/', function(request, response)
  
     request.session.destroy();
 
+    response.clearCookie('employeecode');
+    response.clearCookie('name');
+    response.clearCookie('lastlogin');
+    response.clearCookie('logintimes');
+    response.clearCookie('securityAccessLevel');
+
     response.setHeader('Content-type','text/html');
     response.write(htmlHead);
-    //if(request.session.loggedin){htmlLoggedinMenu = readHTML('./loggedinmenu.html');response.write(htmlLoggedinMenu);}
     response.write(htmlHeader);
     response.write(htmlMenu);
     response.write(htmlInfoStart);
